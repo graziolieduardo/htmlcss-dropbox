@@ -44,6 +44,29 @@ body {
     color: white;
 }
 
+body li {
+    list-style: none;
+}
+
+.padding-tb30 {
+    padding: 30px 0;
+}
+
+.padding-l30 {
+    padding-left: 30px;
+}
+
+.margin-lr30 {
+    margin: 0 30px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+#gray {
+    color: #637381;
+}
 /* HEADER  */
 
 header {
@@ -115,7 +138,7 @@ nav li a {
 }
 
 .banner .banner-text .banner-btn {
-    padding: 20px 0 5px;
+    padding: 30px 0 5px;
 }
 
 .banner .banner-text .banner-btn button {
@@ -126,6 +149,7 @@ nav li a {
 .banner .banner-text i {
     display: block;
     padding-top: 40px;
+    font-size: 40px;
 }
 
 .banner-img img {
@@ -139,16 +163,56 @@ nav li a {
 
 .section1-top {
     width: 100%;
+    padding: 100px 0 30px;
 }
 
 .section1-col {
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 20px);
+    border: 1px solid  #E0E0E0;
+    min-height: 1000px;
 }
 
 .section1-bottom {
     width: 100%;
 }
 
+.section1-top h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.section1-col .col-title {
+    border-bottom: 1px solid  #E0E0E0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.section1-col span {
+    display: block;
+}
+
+.section1-col .col-info .plan-price {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.section1-col .col-bottom ul li:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section1-col li {
+    padding: 15px 0;
+}
+
+.section1-col .col-prova-gratis button {
+    padding: 10px 50px;
+    margin-bottom: 30px;
+}
+
+.col-info1 *{
+    padding: 10px 0;
+}
 
 
 
@@ -198,7 +262,6 @@ nav li a {
 
 .debug .section1-col {
     background-color: blue;
-    border: 1px solid  green;
     height: 900px;
 }
 
