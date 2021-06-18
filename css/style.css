@@ -20,11 +20,151 @@ body {
     float: left;
 }
 
-.float.right {
+.float-right {
     float: right;
+}
+
+.w-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.btn {
+    border: none;
+    background-color: #0061FF;
+    color: white;
 }
 
 /* HEADER  */
 
+header {
+    height: 80px;
+    font-weight: bold;
+}
+
+nav .nav-left *,
+nav .nav-right *{
+    display: inline;
+}
+
+.nav-left,
+.nav-right {
+    width: 50%;
+    line-height: 80px;
+}
+
+.nav-right{
+    text-align: right;
+}
+
+nav .nav-left img {
+    vertical-align: middle;
+}
+
+nav li {
+    vertical-align: middle;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left *,
+.nav-right *{
+    padding: 0 10px;
+}
+
+/* BANNER  */
+
+.banner {
+    width: 100%;
+    height: 80vh;
+    background-color: #B4D0E7;
+}
+
+.banner-title {
+    width: 100%;
+    height: 40%;
+}
+
+.banner-text {
+    width: 30%;
+    height: 60%;
+}
+
+.banner-img {
+    width: 70%;
+    height: 71%;
+}
+
+.banner .banner-title h1 {
+    font-size: 70px;
+    padding-top: 60px;
+}
+
+.banner .banner-text .banner-btn {
+    padding: 20px 0 5px;
+}
+
+.banner .banner-text .banner-btn button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.banner .banner-text i {
+    display: block;
+    padding-top: 40px;
+}
+
+.banner-img img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* MAIN  */
+
+
+
+
+
+
 
 /* debug  */
+
+.debug header {
+    background-color: red;
+}
+
+.debug .nav-left {
+    background-color: yellow;
+}
+
+.debug .nav-right {
+    background-color: yellow;
+}
+
+.debug a {
+    background-color: palevioletred;
+}
+
+.debug .wrapper {
+    background-color: green;
+}
+
+.debug .banner-title {
+    background-color: red;
+}
+
+.debug .banner-text {
+    background-color: yellow;
+}
+
+.debug .banner-img {
+    background-color: blue;
+}
