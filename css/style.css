@@ -48,6 +48,10 @@ body li {
     list-style: none;
 }
 
+.padding-b20 {
+    padding-bottom: 20px;
+}
+
 .padding-tb30 {
     padding: 30px 0;
 }
@@ -235,6 +239,7 @@ nav li a {
 
 .section1-bottom {
     border: 1px solid  #E0E0E0;
+    margin-bottom: 150px;
 }
 
 .section1-bottom .bottom-title {
@@ -266,6 +271,38 @@ nav li a {
     padding: 10px 50px;
     font-size: 14px;
 }
+
+/* section 2  */
+
+.section2-img {
+    width: 60%;
+}
+
+.section2-text {
+    width: 40%;
+    padding: 50px 0 0 50px
+}
+
+.section2-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section2-text h3 {
+    font-size: 25px;
+}
+
+.section2-text p {
+    line-height: 30px;
+}
+
+#section2-btn {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
 
 
 /* debug  */
