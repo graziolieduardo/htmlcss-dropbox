@@ -170,6 +170,7 @@ nav li a {
     width: calc((100% / 3) - 20px);
     border: 1px solid  #E0E0E0;
     min-height: 1000px;
+    margin-bottom: 50px;
 }
 
 .section1-bottom {
@@ -181,10 +182,22 @@ nav li a {
     padding-bottom: 50px;
 }
 
-.section1-col .col-title {
+.section1-col .col-title,
+.section1-bottom .col-title {
+    width: 100%;
     border-bottom: 1px solid  #E0E0E0;
     padding: 10px 0;
     text-align: center;
+}
+
+.section1-col .col-title h4,
+.section1-bottom .col-title h4 {
+    display: inline-block;
+}
+
+.col-info1 h3,
+.bottom-content h3 {
+    font-size: 25px;
 }
 
 .section1-col span {
@@ -210,61 +223,51 @@ nav li a {
     margin-bottom: 30px;
 }
 
-.col-info1 *{
+.col-info1 h3, span{
     padding: 10px 0;
 }
 
+.col-bottom li i {
+    color: #0061FF;                         
+}
 
+/* section 1 bottom  */
+
+.section1-bottom {
+    border: 1px solid  #E0E0E0;
+}
+
+.section1-bottom .bottom-title {
+    width: 100%;
+}
+
+.section1-bottom .bottom-content {
+    width: 75%;
+}
+
+.section1-bottom .bottom-btn{
+    width: 25%;
+}
+
+.bottom-content h3 {
+    padding-bottom: 10px;
+}
+
+.bottom-content div {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.wrapper-bottom {
+    padding: 30px;
+}
+
+.wrapper-bottom .bottom-btn button {
+    padding: 10px 50px;
+    font-size: 14px;
+}
 
 
 /* debug  */
 
 
-.debug header {
-    background-color: red;
-}
-
-.debug .nav-left {
-    background-color: yellow;
-}
-
-.debug .nav-right {
-    background-color: yellow;
-}
-
-.debug a {
-    background-color: palevioletred;
-}
-
-.debug .wrapper {
-    background-color: green;
-}
-
-.debug .banner-title {
-    background-color: red;
-}
-
-.debug .banner-text {
-    background-color: yellow;
-}
-
-.debug .banner-img {
-    background-color: blue;
-}
-
-.debug section {
-    background-color: gray;
-}
-
-.debug .section1-top {
-    background-color: red;
-}
-
-.debug .section1-col {
-    background-color: blue;
-    height: 900px;
-}
-
-.debug .section1-bottom {
-    background-color: blueviolet;
-}
