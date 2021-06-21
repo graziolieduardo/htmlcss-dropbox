@@ -73,8 +73,51 @@ body li {
     font-size: 14px;
 }
 
+hr {
+    width: 50px;
+    border: 1px solid #D0D0D3;
+}
+ 
+/* common colors  */
+
 #gray {
     color: #637381;
+}
+
+#green {
+    background-color: #A2D39B;
+}
+
+#red {
+    background-color: #FF1C1C;
+}
+
+#light-blue {
+    background-color: #B4D0E7;
+}
+
+#blue {
+    background-color: #0093CE;
+}
+
+#dark-blue {
+    background-color: #0D2481;
+}
+
+#purple {
+    background-color: #61082B;
+}
+
+#yellow {
+    background-color: #FFD830;
+}
+
+#dark-gray {
+    background-color: #F5F5F5;
+}
+
+#dark-red {
+    background-color: #D5001F;
 }
 /* HEADER  */
 
@@ -324,6 +367,17 @@ nav li a {
 
 /* section 4  */
 
+#section4 .top .wrapper {
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+#section4 .top .wrapper h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+
 #section4 .bottom {
     width: 100vw;
 }
@@ -337,30 +391,70 @@ nav li a {
     height: 30vw;
 }
 
+#section4 .col-middle .box{
+    width: 100%;
+    height: 100%;
+    padding: 60px 50px ;
+}
 
 #section4 .col .box {
+    position: relative;
     width: 15vw;
     height: 15vw;
 }
+
+#section4 .col .box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    filter: invert(1);
+}
+
+#section4 .col-middle .box img {
+    max-width: 20%;
+}
+
+#section4 .bottom-box {
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    background-color: #B4D0E7;
+}
+
+#section4 .bottom-box .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section4 .bottom-box .wrapper .text {
+    width: 70%;
+}
+
+#section4 .bottom-box .wrapper .button-box {
+    width: 30%;
+}
+
+#section4 .bottom-box .wrapper .text div {
+    font-size: 40px;
+    font-weight: bold;
+    width: 60%;
+    color: #61082B;
+}
+
+#section4 .bottom-box .wrapper .button-box button {
+    background-color: #F5F5F5;
+    border: none;
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 
 
 
 /* debug  */
 
-#section4 .top {
-    background-color: yellow;
-}
-
-#section4 .bottom {
-    background-color: blue;
-}
-
-#section4 .col .box {
-    background-color: red;
-    border: 1px solid black;
-}
-
-#section4 .col-middle {
-    background-color: pink;
-    border: px solid black;
-}
