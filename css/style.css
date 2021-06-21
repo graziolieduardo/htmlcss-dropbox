@@ -52,12 +52,17 @@ body li {
     padding-bottom: 20px;
 }
 
+
 .padding-tb30 {
     padding: 30px 0;
 }
 
 .padding-l30 {
     padding-left: 30px;
+}
+
+.padding-b150 {
+    padding-bottom: 150px;
 }
 
 .margin-lr30 {
@@ -76,11 +81,6 @@ body li {
 header {
     height: 80px;
     font-weight: bold;
-}
-
-nav .nav-left *,
-nav .nav-right *{
-    display: inline;
 }
 
 .nav-left,
@@ -109,6 +109,7 @@ nav li a {
 
 .nav-left *,
 .nav-right *{
+    display: inline;
     padding: 0 10px;
 }
 
@@ -239,7 +240,6 @@ nav li a {
 
 .section1-bottom {
     border: 1px solid  #E0E0E0;
-    margin-bottom: 150px;
 }
 
 .section1-bottom .bottom-title {
@@ -303,8 +303,30 @@ nav li a {
     font-size: 16px;
 }
 
+/* section 3  */
+
+#section3 .row .col {
+    width: calc((100% / 3) - 20px);
+}
+
+#section3 h1 {
+    font-size: 40px;
+}
+
+.row .col img {
+    max-width: 100%;
+}
+
 
 
 /* debug  */
 
 
+.debug .col {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.debug .row {
+    background-color: blue;
+}
