@@ -322,16 +322,45 @@ nav li a {
     padding-bottom: 50px;
 }
 
+/* section 4  */
+
+#section4 .bottom {
+    width: 100vw;
+}
+
+#section4 .col {
+    width: 30vw;
+}
+
+#section4 .col-middle {
+    width: 40vw;
+    height: 30vw;
+}
+
+
+#section4 .col .box {
+    width: 15vw;
+    height: 15vw;
+}
+
 
 
 /* debug  */
 
-
-.debug .col {
+#section4 .top {
     background-color: yellow;
+}
+
+#section4 .bottom {
+    background-color: blue;
+}
+
+#section4 .col .box {
+    background-color: red;
     border: 1px solid black;
 }
 
-.debug .row {
-    background-color: blue;
+#section4 .col-middle {
+    background-color: pink;
+    border: px solid black;
 }
