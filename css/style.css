@@ -75,7 +75,6 @@ body li {
 
 hr {
     width: 50px;
-    border: 1px solid #D0D0D3;
 }
  
 /* common colors  */
@@ -119,6 +118,7 @@ hr {
 #dark-red {
     background-color: #D5001F;
 }
+
 /* HEADER  */
 
 header {
@@ -156,18 +156,20 @@ nav li a {
     padding: 0 10px;
 }
 
+/* MAIN  */
+
 /* BANNER  */
 
 .banner {
     width: 100%;
-    height: 80vh;
     background-color: #B4D0E7;
     margin-bottom: 100px;
 }
 
-.banner-title {
+.banner .row {
+    position: relative;
+    top: 80px;
     width: 100%;
-    height: 40%;
 }
 
 .banner-text {
@@ -177,10 +179,10 @@ nav li a {
 
 .banner-img {
     width: 70%;
-    height: 71%;
+    height: 60%;
 }
 
-.banner .banner-title h1 {
+.banner h1 {
     font-size: 70px;
     padding-top: 60px;
 }
@@ -202,10 +204,8 @@ nav li a {
 
 .banner-img img {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
-
-/* MAIN  */
 
 /* section 1  */
 
@@ -236,10 +236,11 @@ nav li a {
     border-bottom: 1px solid  #E0E0E0;
     padding: 10px 0;
     text-align: center;
+    font-weight: bold;
 }
 
-.section1-col .col-title h4,
-.section1-bottom .col-title h4 {
+.section1-col .col-title div,
+.section1-bottom .col-title div {
     display: inline-block;
 }
 
@@ -252,9 +253,8 @@ nav li a {
     display: block;
 }
 
-.section1-col .col-info .plan-price {
-    font-weight: bold;
-    padding: 10px 0;
+.section1-col .col-prova-gratis span {
+    padding-bottom: 40px;
 }
 
 .section1-col .col-bottom ul li:first-child {
@@ -271,7 +271,8 @@ nav li a {
     margin-bottom: 30px;
 }
 
-.col-info1 h3, span{
+.col-info1 h3, 
+.col-info1 span{
     padding: 10px 0;
 }
 
@@ -365,6 +366,10 @@ nav li a {
     padding-bottom: 50px;
 }
 
+#section3 .col p span {
+    text-decoration: underline;
+}
+
 /* section 4  */
 
 #section4 .top .wrapper {
@@ -393,7 +398,6 @@ nav li a {
 
 #section4 .col-middle .box{
     width: 100%;
-    height: 100%;
     padding: 60px 50px ;
 }
 
@@ -509,10 +513,3 @@ footer hr {
     width: 120px;
 }
 
-
-
-/* debug  */
-
-.lalala {
-    background-color: red;
-}
