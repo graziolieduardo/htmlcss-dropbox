@@ -307,6 +307,7 @@ nav li a {
 
 #section3 .row .col {
     width: calc((100% / 3) - 20px);
+    padding: 20px;
 }
 
 #section3 h1 {
@@ -315,6 +316,10 @@ nav li a {
 
 .row .col img {
     max-width: 100%;
+}
+
+#section3 .row {
+    padding-bottom: 50px;
 }
 
 
